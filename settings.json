@@ -1,0 +1,67 @@
+{
+  "metaTitle": "Glitch in Bio!",
+  "metaDescription": "My meta description.",
+  "name": "Monica ",
+  "tagline": "software engineer, content creator & community organizer", 
+  "theme": "custom-theme",
+  "avatarImage": "https://cdn.glitch.global/da8f4d5b-cbcb-4d1b-8fbc-e57c4574653c/animonica-avatar.png?v=1669173781890",
+  "links": [
+    {
+      "url": "https://aboutmonica.com/writing/",
+      "text": "Technical Articles",
+      "img":"",
+      "altText": ""
+    },
+        {
+      "url": "https://aboutmonica.com/newsletter/",
+      "text": "Newsletter",
+      "img":""
+    },
+      {
+      "url": "https://aboutmonica.com/blog/my-svg-creation-process/",
+      "text": "My SVG Creation Process",
+      "img":""
+    }, {
+      "url": "https://codepen.io/M0nica",
+      "text": "Creative Coding Experiments (Codepen)",
+      "img": ""
+    },
+    {
+      "url": "https://aboutmonica.com/blog/how-to-create-a-github-profile-readme/",
+      "text": "How To Create A GitHub Profile README",
+      "img":""
+    }
+  ],
+  "social": {
+    "glitch": "",
+    "arena":"",
+    "bandcamp": "",
+    "cohost":"",
+    "dev": "https://dev.to/m0nica",    
+    "facebook": "",
+    "github": "https://github.com/m0nica",
+    "gitlab": "",
+    "hashnode": "",
+    "instagram": "https://www.instagram.com/indigitalcolor/?hl=en",
+    "keybase":"",
+    "kofi": "",
+    "letterboxd":"",
+    "linkedin": "",
+    "mastodon": "https://hachyderm.io/@indigitalcolor",
+    "medium": "",
+    "patreon": "",
+    "pinboard":"",
+    "pinterest": "",
+    "podcast": "",
+    "soundcloud": "",
+    "spotify": "",
+    "stackoverflow": "",
+    "substack": "",
+    "twitter": "https://twitter.com/indigitalcolor",
+    "twitch": "",
+    "tiktok": "",
+    "tumblr": "",
+    "youtube": "",
+    "email": ""
+  }
+}

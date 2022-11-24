@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Glitch in Bio!</title>
+    
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <!-- OpenGraph/Social sharing -->
+    <meta name="description" content="My meta description." />
+    <meta name="og:description" content="My meta description." />
+    <meta property="og:image" content="https://cdn.glitch.global/da8f4d5b-cbcb-4d1b-8fbc-e57c4574653c/animonica-avatar.png?v&#x3D;1669173781890" />
+    <meta property="og:title" content="Glitch in Bio!" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="/styles/style.css" />
+    <!--PWA requirements-->
+    <meta name="theme-color" content="#9480FF"/>
+    <link rel="apple-touch-icon" href="https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Ftouch-icon.png?v=1633521972305">
+    
+    <!-- PWA setup - update public/sw.js if you add your own assets like a new .css file -->
+    <link rel="manifest" href="manifest.json">
+    <script>
+    if(location.protocol == 'http:') location.protocol = 'https:';
+    if('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+        .then(reg => console.log('Service Worker registered', reg))
+        .catch(err => console.error('Service Worker **not** registered', err));
+    }
+    else {
+      console.warn('Service Worker not supported in this browser');
+    }    
+    </script>    
+    <!--- THEMES: in settings.json change 'glitch' to 'gallery', 'menu', or any other theme in the layout/themes folder --->
+    <link rel="stylesheet" type="text/css" href="/styles/themes/custom-theme.css" />
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="content">
+          
+          <!-- Avatar Image -->
+          <div class="avatar-container">
+            <img src="https://cdn.glitch.global/da8f4d5b-cbcb-4d1b-8fbc-e57c4574653c/animonica-avatar.png?v&#x3D;1669173781890" class="avatar" alt="Monica " />
+          </div>
+          <h1>
+             Monica   
+            
+          </h1>
+
+          <!--- NEXT STEPS: Want to add a bio or some text? Just add a <p> here:
+          <p>
+            Put anything you like here!
+          </p>
+          --->
+
+          <!--- NEXT STEPS: Easy, responsive YouTube/iframe embeds? We've got a helper for that:
+          <div class="video-wrapper__16-9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GSP0b85BKmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          --->
+
+          <ul class="link-list">
+            <!--we use a helper defined in vite.config.js to give the li a class name based on the url-->
+            <li class="aboutmonica_com"><a href="https://aboutmonica.com/writing/"><span>Technical Articles</span></a></li>
+            <!--we use a helper defined in vite.config.js to give the li a class name based on the url-->
+            <li class="aboutmonica_com"><a href="https://aboutmonica.com/newsletter/"><span>Newsletter</span></a></li>
+            <!--we use a helper defined in vite.config.js to give the li a class name based on the url-->
+            <li class="aboutmonica_com"><a href="https://aboutmonica.com/blog/my-svg-creation-process/"><span>My SVG Creation Process</span></a></li>
+            <!--we use a helper defined in vite.config.js to give the li a class name based on the url-->
+            <li class="codepen_io"><a href="https://codepen.io/M0nica"><span>Creative Coding Experiments (Codepen)</span></a></li>
+            <!--we use a helper defined in vite.config.js to give the li a class name based on the url-->
+            <li class="aboutmonica_com"><a href="https://aboutmonica.com/blog/how-to-create-a-github-profile-readme/"><span>How To Create A GitHub Profile README</span></a></li>
+          </ul>
+          
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="social-icons">
+          <!-- Glitch -->
+      
+          <!-- ==================== -->
+          <!-- Arena -->
+      
+          <!-- ==================== -->
+          <!-- Bandcamp -->
+      
+          <!-- ==================== -->
+          <!-- Cohost -->
+      
+          <!-- ==================== -->
+          <!-- Dev.to -->
+          <a
+            aria-label="Monica  on Dev.to"
+            href="https://dev.to/m0nica"
+            tabindex="-1"
+          >
+            <svg
+              class="social-profile-icon"
+              viewBox="0 32 447.99999999999994 448"
+              xmlns="http://www.w3.org/2000/svg"
+              tabindex="0"
+              focusable="true"
+            >
+              <path
+                d="M120.12 208.29c-3.88-2.9-7.77-4.35-11.65-4.35H91.03v104.47h17.45c3.88 0 7.77-1.45 11.65-4.35s5.82-7.25 5.82-13.06v-69.65c-.01-5.8-1.96-10.16-5.83-13.06zM404.1 32H43.9C19.7 32 .06 51.59 0 75.8v360.4C.06 460.41 19.7 480 43.9 480h360.2c24.21 0 43.84-19.59 43.9-43.8V75.8c-.06-24.21-19.7-43.8-43.9-43.8zM154.2 291.19c0 18.81-11.61 47.31-48.36 47.25h-46.4V172.98h47.38c35.44 0 47.36 28.46 47.37 47.28zm100.68-88.66H201.6v38.42h32.57v29.57H201.6v38.41h53.29v29.57h-62.18c-11.16.29-20.44-8.53-20.72-19.69V193.7c-.27-11.15 8.56-20.41 19.71-20.69h63.19zm103.64 115.29c-13.2 30.75-36.85 24.63-47.44 0l-38.53-144.8h32.57l29.71 113.72 29.57-113.72h32.58z"
+              />
+            </svg>
+          </a>
+      
+          <!-- ==================== -->
+          <!-- Facebook -->
+      
+          <!-- ==================== -->
+          <!-- Github -->
+          <a
+            aria-label="Monica  on GitHub"
+            href="https://github.com/m0nica"
+            tabindex="-1"
+          >
+            <svg
+              class="social-profile-icon"
+              viewBox="0 0 20 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              tabindex="0"
+              focusable="true"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M10.026 0C4.517 0 0.052002 4.465 0.052002 9.974C0.052002 14.38 2.909 18.119 6.873 19.439C7.372 19.529 7.552 19.222 7.552 18.958C7.552 18.721 7.544 18.093 7.541 17.262C4.766 17.864 4.18 15.924 4.18 15.924C3.728 14.772 3.073 14.465 3.073 14.465C2.168 13.846 3.142 13.86 3.142 13.86C4.144 13.93 4.669 14.888 4.669 14.888C5.559 16.412 7.005 15.972 7.571 15.717C7.662 15.072 7.922 14.632 8.206 14.383C5.992 14.132 3.664 13.276 3.664 9.453C3.664 8.366 4.053 7.474 4.688 6.778C4.587 6.525 4.242 5.51 4.787 4.138C4.787 4.138 5.624 3.869 7.529 5.159C8.327 4.938 9.178 4.827 10.025 4.823C10.874 4.827 11.726 4.938 12.521 5.159C14.427 3.868 15.263 4.138 15.263 4.138C15.808 5.51 15.466 6.525 15.362 6.778C16.002 7.474 16.386 8.365 16.386 9.453C16.386 13.286 14.056 14.128 11.834 14.375C12.189 14.683 12.509 15.291 12.509 16.221C12.509 17.555 12.497 18.631 12.497 18.958C12.497 19.225 12.675 19.535 13.184 19.437C17.146 18.115 20 14.379 20 9.974C20 4.465 15.535 0 10.026 0Z"
+                fill="#2E3A59"
+              />
+            </svg>
+          </a>
+      
+          <!-- ==================== -->
+          <!-- GitLab -->
+      
+          <!-- ==================== -->
+          <!-- Hashnode -->
+      
+          <!-- ==================== -->
+          <!-- Instagram -->
+          <a
+            aria-label="Monica  on Instagram"
+            href="https://www.instagram.com/indigitalcolor/?hl&#x3D;en"
+            tabindex="-1"
+          >
+            <svg
+              class="social-profile-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              tabindex="0"
+              focusable="true"
+            >
+              <path
+                d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z"
+                fill="black"
+              />
+            </svg>
+          </a>
+      
+          <!-- ==================== -->
+          <!-- Keybase -->
+      
+          <!-- ==================== -->
+          <!-- Ko-Fi -->
+      
+          <!-- ==================== -->
+          <!-- Letterboxd -->
+      
+          <!-- ==================== -->
+          <!-- LinkedIn -->
+      
+          <!-- ==================== -->
+          <!-- Mastodon -->
+          <a
+            aria-label="Monica  on Mastodon"
+            href="https://hachyderm.io/@indigitalcolor"
+            tabindex="-1"
+          >
+            <svg
+              class="social-profile-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 216.4144 232.00976"
+              tabindex="0"
+              focusable="true"
+            >
+              <path
+                d="M107.86523 0C78.203984.2425 49.672422 3.4535937 33.044922 11.089844c0 0-32.97656262 14.752031-32.97656262 65.082031 0 11.525-.224375 25.306175.140625 39.919925 1.19750002 49.22 9.02375002 97.72843 54.53124962 109.77343 20.9825 5.55375 38.99711 6.71547 53.505856 5.91797 26.31125-1.45875 41.08203-9.38867 41.08203-9.38867l-.86914-19.08984s-18.80171 5.92758-39.91796 5.20508c-20.921254-.7175-43.006879-2.25516-46.390629-27.94141-.3125-2.25625-.46875-4.66938-.46875-7.20313 0 0 20.536953 5.0204 46.564449 6.21289 15.915.73001 30.8393-.93343 45.99805-2.74218 29.07-3.47125 54.38125-21.3818 57.5625-37.74805 5.0125-25.78125 4.59961-62.916015 4.59961-62.916015 0-50.33-32.97461-65.082031-32.97461-65.082031C166.80539 3.4535938 138.255.2425 108.59375 0h-.72852zM74.296875 39.326172c12.355 0 21.710234 4.749297 27.896485 14.248047l6.01367 10.080078 6.01563-10.080078c6.185-9.49875 15.54023-14.248047 27.89648-14.248047 10.6775 0 19.28156 3.753672 25.85156 11.076172 6.36875 7.3225 9.53907 17.218828 9.53907 29.673828v60.941408h-24.14454V81.869141c0-12.46875-5.24453-18.798829-15.73828-18.798829-11.6025 0-17.41797 7.508516-17.41797 22.353516v32.375002H96.207031V85.423828c0-14.845-5.815468-22.353515-17.417969-22.353516-10.49375 0-15.740234 6.330079-15.740234 18.798829v59.148439H38.904297V80.076172c0-12.455 3.171016-22.351328 9.541015-29.673828 6.568751-7.3225 15.172813-11.076172 25.851563-11.076172z"
+                fill="black"
+              />
+            </svg>
+          </a>
+      
+          <!-- ==================== -->
+          <!-- Medium -->
+      
+          <!-- ==================== -->
+          <!-- Patreon -->
+      
+          <!-- ==================== -->
+          <!-- Pinboard -->
+      
+          <!-- ==================== -->
+          <!-- Pinterest -->
+      
+          <!-- ==================== -->
+          <!-- Podcast -->
+      
+          <!-- ==================== -->
+          <!-- Spotify -->
+      
+          <!-- ==================== -->
+          <!-- SoundCloud -->
+      
+          <!-- ==================== -->
+          <!-- Stack Overflow -->
+      
+          <!-- ==================== -->
+          <!-- Substack -->
+      
+          <!-- ==================== -->
+          <!-- TikTok -->
+      
+          <!-- ==================== -->
+          <!-- Twitch -->
+      
+          <!-- ==================== -->
+          <!-- Twitter -->
+          <a
+            aria-label="Monica  on Twitter"
+            href="https://twitter.com/indigitalcolor"
+            tabindex="-1"
+          >
+            <svg
+              class="social-profile-icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              tabindex="0"
+              focusable="true"
+            >
+              <path
+                d="M22.162 5.65593C21.3986 5.99362 20.589 6.2154 19.76 6.31393C20.6337 5.79136 21.2877 4.96894 21.6 3.99993C20.78 4.48793 19.881 4.82993 18.944 5.01493C18.3146 4.34151 17.4804 3.89489 16.5709 3.74451C15.6615 3.59413 14.7279 3.74842 13.9153 4.18338C13.1026 4.61834 12.4564 5.30961 12.0771 6.14972C11.6978 6.98983 11.6067 7.93171 11.818 8.82893C10.1551 8.74558 8.52832 8.31345 7.04328 7.56059C5.55823 6.80773 4.24812 5.75097 3.19799 4.45893C2.82628 5.09738 2.63095 5.82315 2.63199 6.56193C2.63199 8.01193 3.36999 9.29293 4.49199 10.0429C3.828 10.022 3.17862 9.84271 2.59799 9.51993V9.57193C2.59819 10.5376 2.93236 11.4735 3.54384 12.221C4.15532 12.9684 5.00647 13.4814 5.95299 13.6729C5.33661 13.84 4.6903 13.8646 4.06299 13.7449C4.32986 14.5762 4.85 15.3031 5.55058 15.824C6.25117 16.3449 7.09712 16.6337 7.96999 16.6499C7.10247 17.3313 6.10917 17.8349 5.04687 18.1321C3.98458 18.4293 2.87412 18.5142 1.77899 18.3819C3.69069 19.6114 5.91609 20.264 8.18899 20.2619C15.882 20.2619 20.089 13.8889 20.089 8.36193C20.089 8.18193 20.084 7.99993 20.076 7.82193C20.8949 7.23009 21.6016 6.49695 22.163 5.65693L22.162 5.65593Z"
+                fill="black"
+              />
+            </svg>
+          </a>
+      
+          <!-- ==================== -->
+          <!-- Tumblr -->
+      
+          <!-- ==================== -->
+          <!-- YouTube -->
+      
+          <!-- ==================== -->
+          <!-- Email -->
+        </div>
+      </div>
+      
+      <!--- FOOTER: You can safely remove the Glitch footer (but tell your friends!) ✂ --->
+      <footer class="footer">
+        <div class="tagline">
+      <!--     <b>Glitch in Bio</b><br /> -->
+          Thanks for stopping by 👋🏾✨
+        </div>
+      <!--   <a
+          class="btn--remix"
+          target="_top"
+          href="https://glitch.com/edit/#!/remix/glitch-in-bio"
+        >
+          <img
+            src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140"
+            alt=""
+          />
+          Get your own free page
+        </a> -->
+      </footer>
+    </main>
+  </body>
+</html>

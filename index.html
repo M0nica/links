@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>{{ settings.metaTitle }}</title>
+    
+    {{> head }}
+    
+    <!--- THEMES: in settings.json change 'glitch' to 'gallery', 'menu', or any other theme in the layout/themes folder --->
+    <link rel="stylesheet" type="text/css" href="/styles/themes/{{settings.theme}}.css" />
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="content">
+          
+          {{> avatar }} 
+          {{> name }}
+          {{> tagline }}
+          {{> social }}
+
+          <!--- NEXT STEPS: Want to add a bio or some text? Just add a <p> here:
+          <p>
+            Put anything you like here!
+          </p>
+          --->
+
+          <!--- NEXT STEPS: Easy, responsive YouTube/iframe embeds? We've got a helper for that:
+          <div class="video-wrapper__16-9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GSP0b85BKmY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          --->
+
+          {{> links }} 
+          
+        </div>
+      </div>
+
+    
+      
+      <!--- FOOTER: You can safely remove the Glitch footer (but tell your friends!) ✂ --->
+      {{> glitch-footer }}
+    </main>
+  </body>
+</html>
