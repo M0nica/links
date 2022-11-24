@@ -1,4 +1,5 @@
 # Glitch in Bio!
+[![Netlify Status](https://api.netlify.com/api/v1/badges/27a30146-8c25-481e-b794-98068285bcf2/deploy-status)](https://app.netlify.com/sites/phenomenal-baklava-780a54/deploys)
 
 Your links, your way. A link-in-bio app you can customize any way you want.
 
