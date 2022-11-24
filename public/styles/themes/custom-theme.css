@@ -41,7 +41,7 @@ Select your chosen CSS by adding the theme name (e.g. glitch) in settings.json
 }
 
 :root {
-  --color-bg: #fbf7ff;/*#9480FF*/
+  --color-bg: #fbf7ff;
   --color-bg-alt: #D7F5EF;
   --color-text-main: #2a2135;
   --color-primary: #b1a7ed;
@@ -55,7 +55,7 @@ p {
   color: var(--color-text-main);
 }
 body {
-  background:linear-gradient(0deg, #9480FF,  #fbf2fd 85%); /*fixed linear-gradient(0deg, #D7F5EF, #9480FF);*/
+  background:linear-gradient(0deg, #9480FF,  #fbf2fd 85%);
 }
 
 ul.link-list li a {
