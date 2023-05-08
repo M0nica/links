@@ -2,51 +2,63 @@
 <html lang="en">
   <head>
     <title>Glitch in Bio!</title>
-    
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+
     <!-- OpenGraph/Social sharing -->
     <meta name="description" content="My meta description." />
     <meta name="og:description" content="My meta description." />
-    <meta property="og:image" content="https://cdn.glitch.global/da8f4d5b-cbcb-4d1b-8fbc-e57c4574653c/animonica-avatar.png?v&#x3D;1669173781890" />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.global/da8f4d5b-cbcb-4d1b-8fbc-e57c4574653c/animonica-avatar.png?v&#x3D;1669173781890"
+    />
     <meta property="og:title" content="Glitch in Bio!" />
     <meta name="twitter:card" content="summary" />
     <link rel="icon" href="https://glitch.com/favicon.ico" />
     <link rel="stylesheet" type="text/css" href="/styles/style.css" />
     <!--PWA requirements-->
-    <meta name="theme-color" content="#9480FF"/>
-    <link rel="apple-touch-icon" href="https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Ftouch-icon.png?v=1633521972305">
-    
+    <meta name="theme-color" content="#9480FF" />
+    <link
+      rel="apple-touch-icon"
+      href="https://cdn.glitch.me/efc5414a-882b-4708-af81-8461abbc1a82%2Ftouch-icon.png?v=1633521972305"
+    />
+
     <!-- PWA setup - update public/sw.js if you add your own assets like a new .css file -->
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="manifest.json" />
     <script>
-    if(location.protocol == 'http:') location.protocol = 'https:';
-    if('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js')
-        .then(reg => console.log('Service Worker registered', reg))
-        .catch(err => console.error('Service Worker **not** registered', err));
-    }
-    else {
-      console.warn('Service Worker not supported in this browser');
-    }    
-    </script>    
+      if (location.protocol == 'http:') location.protocol = 'https:';
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker
+          .register('sw.js')
+          .then((reg) => console.log('Service Worker registered', reg))
+          .catch((err) =>
+            console.error('Service Worker **not** registered', err)
+          );
+      } else {
+        console.warn('Service Worker not supported in this browser');
+      }
+    </script>
     <!--- THEMES: in settings.json change 'glitch' to 'gallery', 'menu', or any other theme in the layout/themes folder --->
-    <link rel="stylesheet" type="text/css" href="/styles/themes/custom-theme.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/styles/themes/custom-theme.css"
+    />
   </head>
   <body>
     <main>
       <div class="wrapper">
         <div class="content">
-          
           <!-- Avatar Image -->
           <div class="avatar-container">
-            <img src="https://cdn.glitch.global/da8f4d5b-cbcb-4d1b-8fbc-e57c4574653c/animonica-avatar.png?v&#x3D;1669173781890" class="avatar" alt="Monica " />
+            <img
+              src="https://cdn.glitch.global/da8f4d5b-cbcb-4d1b-8fbc-e57c4574653c/animonica-avatar.png?v&#x3D;1669173781890"
+              class="avatar"
+              alt="Monica "
+            />
           </div>
-          <h1>
-             Monica   
-            
-          </h1>
+          <h1>Monica</h1>
 
           <!--- NEXT STEPS: Want to add a bio or some text? Just add a <p> here:
           <p>
@@ -62,33 +74,53 @@
 
           <ul class="link-list">
             <!--we use a helper defined in vite.config.js to give the li a class name based on the url-->
-            <li class="aboutmonica_com"><a href="https://aboutmonica.com/writing/"><span>Technical Articles</span></a></li>
+            <li class="aboutmonica_com">
+              <a href="https://aboutmonica.com/writing/"
+                ><span>Technical Articles</span></a
+              >
+            </li>
             <!--we use a helper defined in vite.config.js to give the li a class name based on the url-->
-            <li class="aboutmonica_com"><a href="https://aboutmonica.com/newsletter/"><span>Newsletter</span></a></li>
+            <li class="aboutmonica_com">
+              <a href="https://aboutmonica.com/newsletter/"
+                ><span>Newsletter</span></a
+              >
+            </li>
             <!--we use a helper defined in vite.config.js to give the li a class name based on the url-->
-            <li class="aboutmonica_com"><a href="https://aboutmonica.com/blog/my-svg-creation-process/"><span>My SVG Creation Process</span></a></li>
+            <li class="aboutmonica_com">
+              <a href="https://aboutmonica.com/blog/my-svg-creation-process/"
+                ><span>My SVG Creation Process</span></a
+              >
+            </li>
             <!--we use a helper defined in vite.config.js to give the li a class name based on the url-->
-            <li class="codepen_io"><a href="https://codepen.io/M0nica"><span>Creative Coding Experiments (Codepen)</span></a></li>
+            <li class="codepen_io">
+              <a href="https://codepen.io/M0nica"
+                ><span>Creative Coding Experiments (Codepen)</span></a
+              >
+            </li>
             <!--we use a helper defined in vite.config.js to give the li a class name based on the url-->
-            <li class="aboutmonica_com"><a href="https://aboutmonica.com/blog/how-to-create-a-github-profile-readme/"><span>How To Create A GitHub Profile README</span></a></li>
+            <li class="aboutmonica_com">
+              <a
+                href="https://aboutmonica.com/blog/how-to-create-a-github-profile-readme/"
+                ><span>How To Create A GitHub Profile README</span></a
+              >
+            </li>
           </ul>
-          
         </div>
       </div>
 
       <div class="content">
         <div class="social-icons">
           <!-- Glitch -->
-      
+
           <!-- ==================== -->
           <!-- Arena -->
-      
+
           <!-- ==================== -->
           <!-- Bandcamp -->
-      
+
           <!-- ==================== -->
           <!-- Cohost -->
-      
+
           <!-- ==================== -->
           <!-- Dev.to -->
           <a
@@ -108,10 +140,10 @@
               />
             </svg>
           </a>
-      
+
           <!-- ==================== -->
           <!-- Facebook -->
-      
+
           <!-- ==================== -->
           <!-- Github -->
           <a
@@ -135,13 +167,13 @@
               />
             </svg>
           </a>
-      
+
           <!-- ==================== -->
           <!-- GitLab -->
-      
+
           <!-- ==================== -->
           <!-- Hashnode -->
-      
+
           <!-- ==================== -->
           <!-- Instagram -->
           <a
@@ -163,19 +195,19 @@
               />
             </svg>
           </a>
-      
+
           <!-- ==================== -->
           <!-- Keybase -->
-      
+
           <!-- ==================== -->
           <!-- Ko-Fi -->
-      
+
           <!-- ==================== -->
           <!-- Letterboxd -->
-      
+
           <!-- ==================== -->
           <!-- LinkedIn -->
-      
+
           <!-- ==================== -->
           <!-- Mastodon -->
           <a
@@ -196,40 +228,40 @@
               />
             </svg>
           </a>
-      
+
           <!-- ==================== -->
           <!-- Medium -->
-      
+
           <!-- ==================== -->
           <!-- Patreon -->
-      
+
           <!-- ==================== -->
           <!-- Pinboard -->
-      
+
           <!-- ==================== -->
           <!-- Pinterest -->
-      
+
           <!-- ==================== -->
           <!-- Podcast -->
-      
+
           <!-- ==================== -->
           <!-- Spotify -->
-      
+
           <!-- ==================== -->
           <!-- SoundCloud -->
-      
+
           <!-- ==================== -->
           <!-- Stack Overflow -->
-      
+
           <!-- ==================== -->
           <!-- Substack -->
-      
+
           <!-- ==================== -->
           <!-- TikTok -->
-      
+
           <!-- ==================== -->
           <!-- Twitch -->
-      
+
           <!-- ==================== -->
           <!-- Twitter -->
           <a
@@ -251,25 +283,27 @@
               />
             </svg>
           </a>
-      
+
           <!-- ==================== -->
           <!-- Tumblr -->
-      
+
           <!-- ==================== -->
           <!-- YouTube -->
-      
+
           <!-- ==================== -->
           <!-- Email -->
         </div>
       </div>
-      
+
       <!--- FOOTER: You can safely remove the Glitch footer (but tell your friends!) ✂ --->
       <footer class="footer">
         <div class="tagline">
-      <!--     <b>Glitch in Bio</b><br /> -->
-          Thanks for stopping by 👋🏾✨
+          <!--     <b>Glitch in Bio</b><br /> -->
+          Thanks for stopping by
+          <span role="img" aria-label="waving hand">👋🏾</span
+          ><span role="img" aria-label="sparkles">✨</span>
         </div>
-      <!--   <a
+        <!--   <a
           class="btn--remix"
           target="_top"
           href="https://glitch.com/edit/#!/remix/glitch-in-bio"
