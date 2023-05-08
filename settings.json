@@ -7,6 +7,18 @@
   "avatarImage": "https://cdn.glitch.global/da8f4d5b-cbcb-4d1b-8fbc-e57c4574653c/animonica-avatar.png?v=1669173781890",
   "links": [
     {
+      "url": "https://github.com/M0nica/remix-conf-mdx-demo",
+      "text": "Remix Conf Demo, Code & Presentation",
+      "img":"",
+      "altText": ""
+    },
+    {
+      "url": "https://github.com/M0nica/bluesky-artbot",
+      "text": "Bluesky P5 Art Bot Starter Code",
+      "img":"",
+      "altText": ""
+    },
+    { 
       "url": "https://aboutmonica.com/writing/",
       "text": "Technical Articles",
       "img":"",
