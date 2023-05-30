@@ -6,6 +6,13 @@
   "theme": "custom-theme",
   "avatarImage": "https://cdn.glitch.global/da8f4d5b-cbcb-4d1b-8fbc-e57c4574653c/animonica-avatar.png?v=1669173781890",
   "links": [
+
+    {
+      "url": "https://aboutmonica.com/RenderATL2023.pdf",
+      "text": "RenderATL: The Art of Scripting Media w/ Randomness [slides]",
+      "img":"",
+      "altText": ""
+    },
     {
       "url": "https://github.com/M0nica/remix-conf-mdx-demo",
       "text": "Remix Conf Demo, Code & Presentation",
