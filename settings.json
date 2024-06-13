@@ -6,6 +6,12 @@
   "theme": "custom-theme",
   "avatarImage": "https://cdn.glitch.global/da8f4d5b-cbcb-4d1b-8fbc-e57c4574653c/animonica-avatar.png?v=1669173781890",
   "links": [
+      {
+      "url": "https://codepen.io/collection/jboZYZ",
+      "text": "RenderATL 2024 | art+data, an exploration of computational creativity",
+      "img": "",
+      "altText": ""
+    },
      {
       "url": "https://monica.dev/ReactMiami24",
       "text": "React Miami Workshop - Let's Sketch: Using P5.js with React to Fill a Canvas",
@@ -20,7 +26,7 @@
     },
     {
       "url": "https://aboutmonica.com/RenderATL2023.pdf",
-      "text": "RenderATL: The Art of Scripting Media w/ Randomness [slides]",
+      "text": "RenderATL23: The Art of Scripting Media w/ Randomness [slides]",
       "img":"",
       "altText": ""
     },
