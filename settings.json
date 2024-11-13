@@ -6,7 +6,13 @@
   "theme": "custom-theme",
   "avatarImage": "https://cdn.glitch.global/da8f4d5b-cbcb-4d1b-8fbc-e57c4574653c/animonica-avatar.png?v=1669173781890",
   "links": [
-      {
+    {
+      "url": "https://tiles.monica.dev/",
+      "text": "Truchet Tile Generator",
+      "img": "",
+      "altText": ""
+    },
+    {
       "url": "https://codepen.io/collection/jboZYZ",
       "text": "RenderATL 2024 | art+data, an exploration of computational creativity",
       "img": "",
