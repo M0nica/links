@@ -41,7 +41,7 @@ Select your chosen CSS by adding the theme name (e.g. glitch) in settings.json
 }
 
 :root {
-  --color-bg: #fbf7ff;/*#9480FF*/
+  --color-bg: #b1a7ed; /*#fbf7ff;/*#9480FF*/
   --color-bg-alt: #D7F5EF;
   --color-text-main: #2a2135;
   --color-primary: #b1a7ed;
